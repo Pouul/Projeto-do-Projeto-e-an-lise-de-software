@@ -1,3 +1,9 @@
+//nome dos participantes:
+//Jiye Huang RA:10438990
+//Gustavo Kiyoshi Ikeda RA:10439179
+//Pedro Montarroyos de Pinho RA:10440213
+
+
 #include <stdio.h>
 #include <string.h>
 
@@ -115,7 +121,8 @@ int main() {
     fclose(arquivo);
 
     Lcs( S1,  S2, LCS);
-
+    printf("String1: %s\n", S1);
+    printf("String2: %s\n", S2);
     printf("LCS dos Strings: %s\n", LCS);
 
     return 0;
