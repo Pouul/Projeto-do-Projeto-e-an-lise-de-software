@@ -13,9 +13,9 @@ int cache[MAX][MAX];
 
 void Lcs(char S1[], char S2[], char LCS[])  {
     int n = strlen(S1);
-    //linha n
+    //coluna n
     int m = strlen(S2);
-    //coluna m
+    //linha m
     // loop para percorrer o matriz
     for (int i = 0; i <= n; i++) {
         for (int j = 0; j <= m; j++) {
